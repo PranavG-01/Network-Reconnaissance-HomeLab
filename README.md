@@ -4,8 +4,8 @@ Utilize nmap to perform network reconnaissance in a virtual environment - identi
 
 ## Lab Setup:
 Virtual Environment (VMWare Fusion) <br>
-    Attacker: Kali Linux VM <br>
-  Target: Windows 10 VM <br>
+\t Attacker: Kali Linux VM <br>
+\t Target: Windows 10 VM <br>
 Network: NAT (default mode) <br>
 Tools: Nmap
 
