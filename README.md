@@ -3,10 +3,10 @@
 Utilize nmap to perform network reconnaissance in a virtual environment - identifying live hosts, port scanning, and security auditing
 
 ## Lab Setup:
-Virtual Environment (VirtualBox)
-  Attacker: Kali Linux VM
-  Target: Windows 10 VM
-Network: NAT (default mode)
+Virtual Environment (VirtualBox) <br>
+  Attacker: Kali Linux VM <br>
+  Target: Windows 10 VM <br>
+Network: NAT (default mode) <br>
 Tools: Nmap
 
 ## Action Steps:
