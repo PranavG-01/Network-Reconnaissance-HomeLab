@@ -1,3 +1,9 @@
+Environment: <br>
+  Kali Linux (latest ISO file)
+  Windows 10 (Downloaded directly from VMWare Fusion)
 
+IP Addresses: <br>
+Kali Linux (ip a): 172.16.134.128
+Windows 10 (ifconfig): 172.16.134.129
 
-![Screenshot of the IP addresses of both VMs](/Users/pranavgangumolu/Downloads/Screenshot 2026-02-05 at 8.58.42 PM.png)
+NAT Configuration: <br>
