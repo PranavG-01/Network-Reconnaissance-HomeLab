@@ -7,11 +7,11 @@ nmap -sn 172.16.134.0/24
 
 
 ## Results
-(MAC Addresses were also displayed)
-Host MacOS (my device): 172.16.134.1
-Windows VM: 172.16.134.129
-Unknown, could be some VMWare infrastructure: 172.16.134.254
-Itself: 172.16.134.128
+(MAC Addresses were also displayed) <br>
+Host MacOS (my device): 172.16.134.1 <br>
+Windows VM: 172.16.134.129 <br>
+Unknown, could be some VMWare infrastructure: 172.16.134.254 <br>
+Itself: 172.16.134.128 <br>
 
 ## Summary
 Using nmap, the discovery confirms a target for further testing
