@@ -19,7 +19,7 @@ Initial scans, because of the firewall, returned the response that "all 1000 por
 Identify the service versions running on the open ports
 
 ## Method
-Performing Nmap's service detection scan 
+Performing Nmap's service detection scan<br>
 nmap -sV 172.16.134.129
 
 ## Results
