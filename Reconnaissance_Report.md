@@ -16,4 +16,15 @@ The following TCP ports were identified from service detection:<br>
 |------|---------|-------------|
 | 135  |  MSRPC  | remote procedure call |
 | 139  | NETBIOS-SSN | netbios session service
-| 445  | MICROSOFT-DS | smb protocol |
+| 445  | MICROSOFT-DS | smb protocol | <br>
+<br>
+Individual descriptions of these ports are in the Port_Scanning+SMB_Enumeration file <br>
+
+## SMB Enumeration
+The aforementioned script did not return additional details such as hostname, domain name, OS information, or file information
+
+## Assessment
+The SMB related ports can be leveraged for attacks within an internal network. While in this lab no information was given, SMB protocol services still remain as targets for exploitation or credential harvesting (in the case that it's not well protected). In this lab it's evident that, at the least, basic security regulations are in place.
+
+## Conclusion
+Within the target Windows VM, no anonymous access vulnerabilities were identified. Though, further testing (vulnerability scanning for SMB exploits, authenticated SMB enumeration, share-specfiic access testing, etc.) can be completed for a deeper understanding of the system's security and other potential misconfigurations. Overall, SMB services still remain a common gateway for internal network attacks thus should be monitored regularly. 
