@@ -1,4 +1,4 @@
-### Objective
+# Objective
 Identify the open TCP ports on the target
 
 ## Method
@@ -15,7 +15,7 @@ Port 445 (MICROSOFT-DS): the modernly used port for file sharing and network ayt
 ## Conclusion
 Initial scans, because of the firewall, returned the response that "all 1000 ports are in ignored status." By disabling the firewall, a few services were identified. Overall these ports shows us the machine's network communication capabilities 
 
-## Objective
+# Objective
 Identify the service versions running on the open ports
 
 ## Method
