@@ -29,3 +29,16 @@ Port 445: "Microsoft-ds?"
 
 ## Conclusion
 The "?" from port 445 reveals that a response was given from the scan but not detailed information. The SMB protocol service was identified but no further information was returned. This could be an example of the machine protecting itself from fingerprinting.
+
+# Objective
+Attempt to find additional host information through SMB Enumeration
+
+## Method
+Performed SMB enumeration using an Nmap NSE script<br>
+nmap --script smb-os-discovery 172.16.134.129
+
+## Results
+The scan identified open SMB-related ports (139 and 445) but did not return any other details regarding hostname or domain info.
+
+## Conclusion
+It's assumed that the system blocks any anynonymous SMB Enumeration for host metadata, showing that security measures are in place. 
