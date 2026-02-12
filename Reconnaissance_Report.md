@@ -17,7 +17,7 @@ The following TCP ports were identified from service detection:<br>
 | 135  |  MSRPC  | remote procedure call |
 | 139  | NETBIOS-SSN | netbios session service
 | 445  | MICROSOFT-DS | smb protocol | <br>
-<br>
+
 Individual descriptions of these ports are in the Port_Scanning+SMB_Enumeration file <br>
 
 ## SMB Enumeration
