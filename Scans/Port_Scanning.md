@@ -13,4 +13,4 @@ Port 139 (NETBIOS-SSN): an older port used for file sharing  <br>
 Port 445 (MICROSOFT-DS): the modernly used port for file sharing and network aythentication <br>
 
 ## Conclusion
-Initial scans, because of the firewall, returned the response that "all 1000 ports are in ignored status." By disabling the firewall, a few services were identified.<br>Overall these ports shows us the machine's network communication capabilities 
+Initial scans, because of the firewall, returned the response that "all 1000 ports are in ignored status." By disabling the firewall, a few services were identified. Overall these ports shows us the machine's network communication capabilities 
