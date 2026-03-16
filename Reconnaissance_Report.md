@@ -23,7 +23,7 @@ Individual descriptions of these ports are in the Port_Scanning+SMB_Enumeration 
 ## SMB Enumeration
 The aforementioned script did not return additional details such as hostname, domain name, OS information, or file information
 
-## Assessment
+## Results
 The SMB related ports can be leveraged for attacks within an internal network. While in this lab no information was given, SMB protocol services still remain as targets for exploitation or credential harvesting (in the case that it's not well protected). In this lab it's evident that, at the least, basic security regulations are in place.
 
 ## Conclusion
